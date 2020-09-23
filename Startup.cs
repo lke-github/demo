@@ -32,7 +32,7 @@ namespace demo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello Rui!");
+                    await context.Response.WriteAsync("Hello Kaiping!");
                 });
             });
         }
